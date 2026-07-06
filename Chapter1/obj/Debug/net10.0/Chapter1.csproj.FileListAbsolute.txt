@@ -1,0 +1,14 @@
+P:\BeSharpWithCSharp\Chapter1\bin\Debug\net10.0\Chapter1.exe
+P:\BeSharpWithCSharp\Chapter1\bin\Debug\net10.0\Chapter1.deps.json
+P:\BeSharpWithCSharp\Chapter1\bin\Debug\net10.0\Chapter1.runtimeconfig.json
+P:\BeSharpWithCSharp\Chapter1\bin\Debug\net10.0\Chapter1.dll
+P:\BeSharpWithCSharp\Chapter1\bin\Debug\net10.0\Chapter1.pdb
+P:\BeSharpWithCSharp\Chapter1\obj\Debug\net10.0\Chapter1.GeneratedMSBuildEditorConfig.editorconfig
+P:\BeSharpWithCSharp\Chapter1\obj\Debug\net10.0\Chapter1.AssemblyInfoInputs.cache
+P:\BeSharpWithCSharp\Chapter1\obj\Debug\net10.0\Chapter1.AssemblyInfo.cs
+P:\BeSharpWithCSharp\Chapter1\obj\Debug\net10.0\Chapter1.csproj.CoreCompileInputs.cache
+P:\BeSharpWithCSharp\Chapter1\obj\Debug\net10.0\Chapter1.dll
+P:\BeSharpWithCSharp\Chapter1\obj\Debug\net10.0\refint\Chapter1.dll
+P:\BeSharpWithCSharp\Chapter1\obj\Debug\net10.0\Chapter1.pdb
+P:\BeSharpWithCSharp\Chapter1\obj\Debug\net10.0\Chapter1.genruntimeconfig.cache
+P:\BeSharpWithCSharp\Chapter1\obj\Debug\net10.0\ref\Chapter1.dll
