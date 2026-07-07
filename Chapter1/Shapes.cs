@@ -1,22 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Utility;
+
+
 
 
 namespace Chapter1
 {
-    internal static class printShapes
+    internal static class PrintShapes
     {
-        public static void printShape(int shape)
+        public static void PrintShape(int shape)
         {
-           int size = UserInput.GetIntegerInput("Enter the size of the shape (1-20): ", 20);
+           int size = UserInput.GetIntegerMaxRange("Enter the size of the shape (1-20): ", 20);
             switch (shape)
             {
                 case 1:
-                    printSquare(size);
+                    PrintSquare(size);
                     break;
                 case 2:
-                    printTriangle(size);
+                    PrintTriangle(size);
                     break;
                 default:
                     Console.WriteLine("Invalid shape selection.");
@@ -24,7 +27,7 @@ namespace Chapter1
             }
         }
 
-        private static void printTriangle(int size)
+        private static void PrintTriangle(int size)
         {
             for (int i = 1; i <= size; i++)
             {
@@ -39,7 +42,7 @@ namespace Chapter1
 
 
 
-        private static void printSquare(int size)
+        private static void PrintSquare(int size)
         {
             for (int i = 0; i < size; i++)
             {

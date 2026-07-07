@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {
-      "Utility/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "compile": {
-          "bin/placeholder/Utility.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Utility.dll": {}
-        }
-      }
-    }
+    "net10.0": {}
   },
-  "libraries": {
-    "Utility/1.0.0": {
-      "type": "project",
-      "path": "../Utility/Utility.csproj",
-      "msbuildProject": "../Utility/Utility.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net10.0": [
-      "Utility >= 1.0.0"
-    ]
+    "net10.0": []
   },
   "packageFolders": {
     "C:\\Users\\Bheku\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "P:\\BeSharpWithCSharp\\Chapter1\\Chapter1.csproj",
-      "projectName": "Chapter1",
-      "projectPath": "P:\\BeSharpWithCSharp\\Chapter1\\Chapter1.csproj",
+      "projectUniqueName": "P:\\BeSharpWithCSharp\\Utility\\Utility.csproj",
+      "projectName": "Utility",
+      "projectPath": "P:\\BeSharpWithCSharp\\Utility\\Utility.csproj",
       "packagesPath": "C:\\Users\\Bheku\\.nuget\\packages\\",
-      "outputPath": "P:\\BeSharpWithCSharp\\Chapter1\\obj\\",
+      "outputPath": "P:\\BeSharpWithCSharp\\Utility\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bheku\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,11 +33,7 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {
-            "P:\\BeSharpWithCSharp\\Utility\\Utility.csproj": {
-              "projectPath": "P:\\BeSharpWithCSharp\\Utility\\Utility.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

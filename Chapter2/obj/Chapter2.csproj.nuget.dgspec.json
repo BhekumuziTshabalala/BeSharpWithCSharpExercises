@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "P:\\BeSharpWithCSharp\\Chapter1\\Chapter1.csproj": {}
+    "P:\\BeSharpWithCSharp\\Chapter2\\Chapter2.csproj": {}
   },
   "projects": {
-    "P:\\BeSharpWithCSharp\\Chapter1\\Chapter1.csproj": {
+    "P:\\BeSharpWithCSharp\\Chapter2\\Chapter2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\BeSharpWithCSharp\\Chapter1\\Chapter1.csproj",
-        "projectName": "Chapter1",
-        "projectPath": "P:\\BeSharpWithCSharp\\Chapter1\\Chapter1.csproj",
+        "projectUniqueName": "P:\\BeSharpWithCSharp\\Chapter2\\Chapter2.csproj",
+        "projectName": "Chapter2",
+        "projectPath": "P:\\BeSharpWithCSharp\\Chapter2\\Chapter2.csproj",
         "packagesPath": "C:\\Users\\Bheku\\.nuget\\packages\\",
-        "outputPath": "P:\\BeSharpWithCSharp\\Chapter1\\obj\\",
+        "outputPath": "P:\\BeSharpWithCSharp\\Chapter2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bheku\\AppData\\Roaming\\NuGet\\NuGet.Config",

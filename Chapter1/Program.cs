@@ -1,4 +1,5 @@
-﻿
+﻿using Utility;
+
 namespace Chapter1
 {
     internal class Program
@@ -9,8 +10,8 @@ namespace Chapter1
                 "\n 1. Squares." +
                 "\n 2. Triangle");
 
-            int programNumber = UserInput.GetIntegerInput("Enter the number associated with the program : ", 2);
-            printShapes.printShape(programNumber);
+            int programNumber = UserInput.GetIntegerMaxRange("Enter the number associated with the program : ", 2);
+            PrintShapes.PrintShape(programNumber);
          
         }
     }
