@@ -10,13 +10,13 @@ namespace Utility
         {
             do
             {
-                Console.WriteLine(prompt);
+                Console.Write(prompt);
                 if (int.TryParse(Console.ReadLine(), out int value) && value > 0 && value <= maxRange){
                     return value;
                 }
                 else
                 {
-                    Console.WriteLine($"Invalid input. Please enter a number between 1 and {maxRange}.");
+                    Console.WriteLine($"\nInvalid input. Please enter a number between 1 and {maxRange}.");
                 }
             } while (true);
         }
@@ -25,11 +25,37 @@ namespace Utility
         {
             do
             {
-                Console.WriteLine(prompt);
+                Console.Write(prompt + ":");
                 if (int.TryParse(Console.ReadLine(), out int value)){
                     return value;
                 }
-                Console.WriteLine($"Invalid input. Please enter a number");
+                Console.Write($"\nInvalid input. Please enter a number");
+                
+            } while (true);
+        }
+        
+        public static double GetDoubleInput(string prompt)
+        {
+            do
+            {
+                Console.Write(prompt + ":");
+                if (double.TryParse(Console.ReadLine(), out double value)){
+                    return value;
+                }
+                Console.Write($"\nInvalid input. Please enter a number");
+                
+            } while (true);
+        }
+        
+        public static decimal GetDecimalInput(string prompt)
+        {
+            do
+            {
+                Console.Write(prompt);
+                if (decimal.TryParse(Console.ReadLine(), out decimal value)){
+                    return value;
+                }
+                Console.Write($"\nInvalid input. Please enter a number");
                 
             } while (true);
         }

@@ -1,0 +1,12 @@
+P:\BeSharpWithCSharp\Utility\bin\Debug\net10.0\Utility.deps.json
+P:\BeSharpWithCSharp\Utility\bin\Debug\net10.0\Utility.dll
+P:\BeSharpWithCSharp\Utility\bin\Debug\net10.0\Utility.pdb
+P:\BeSharpWithCSharp\Utility\obj\Debug\net10.0\Utility.GeneratedMSBuildEditorConfig.editorconfig
+P:\BeSharpWithCSharp\Utility\obj\Debug\net10.0\Utility.AssemblyInfoInputs.cache
+P:\BeSharpWithCSharp\Utility\obj\Debug\net10.0\Utility.AssemblyInfo.cs
+P:\BeSharpWithCSharp\Utility\obj\Debug\net10.0\Utility.csproj.CoreCompileInputs.cache
+P:\BeSharpWithCSharp\Utility\obj\Debug\net10.0\Utility.sourcelink.json
+P:\BeSharpWithCSharp\Utility\obj\Debug\net10.0\Utility.dll
+P:\BeSharpWithCSharp\Utility\obj\Debug\net10.0\refint\Utility.dll
+P:\BeSharpWithCSharp\Utility\obj\Debug\net10.0\Utility.pdb
+P:\BeSharpWithCSharp\Utility\obj\Debug\net10.0\ref\Utility.dll

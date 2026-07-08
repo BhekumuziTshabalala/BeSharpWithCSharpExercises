@@ -4,15 +4,36 @@ namespace Chapter2;
 
 public static class ExerciseOne
 {
-    public  static string ConvertSeconds()
+    public  static void ConvertSeconds()
     {
-        int seconds = UserInput.GetIntegerInput("Seconds");
+        int seconds = UserInput.GetIntegerInput("Seconds ");
         
         int hours = seconds / 3600;
         seconds %= 3600;
         int minutes = seconds / 60;
         seconds %= 60;
         
-        return hours + ":" + minutes + ":" + seconds;
+        Console.WriteLine("{0:00}:{1:00}:{2:00}", hours, minutes, seconds);
+    }
+
+    public static void ConvertBytes()
+    {
+        double bytes = UserInput.GetDoubleInput("Bytes ");
+        double gigabytes = bytes / (1024 * 1024 * 1024) ;
+        bytes %= bytes / (1024 * 1024 * 1024) ;
+        double kilobytes = bytes / (1024 * 1024);
+        bytes %= (1024 * 1024);
+        
+        Console.WriteLine("{0:00}:{1:00}:{2:00}", gigabytes, kilobytes, bytes);
+        
+    }
+
+    public static void ConvertCurrency()
+    {
+        decimal amount = UserInput.GetDecimalInput("Amount R");
+        decimal conversionRate = UserInput.GetDecimalInput("Conversion Rate R");
+        
+        Console.WriteLine("{0}$ = {1:C}", amount, amount * conversionRate);
+        
     }
 }
