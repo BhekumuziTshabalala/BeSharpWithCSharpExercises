@@ -17,7 +17,9 @@ class Program
                                   "\n 4. Get Average of 5" +
                                   "\n 5. TSA of Pipe" +
                                   "\n 6. JohnnyCashShop" +
-                                  
+                                  "\n 7. GrossPayCalculator" +
+                                  "\n 8. NumberSquare" +
+                                  "\n 9.Trigonometry" +
                                   "\n Select Program: ", 7
             );
 
