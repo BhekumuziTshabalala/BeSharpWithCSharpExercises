@@ -65,11 +65,31 @@ public static class ExerciseOne
         {
             amount += UserInput.GetDecimalInput($"Enter amount of item {i} R");
         }
-        
         decimal cashProvided =  UserInput.GetDecimalInput("Cash Provided by user R");
         Console.WriteLine("Change : {0:C}",cashProvided - amount);
-        
     }
-    
-    
+
+    public static void GrossPayCalculator()
+    {
+        Console.WriteLine("======= Gross Pay Calculator =======");
+        decimal sales = UserInput.GetDecimalInput("Total sales : R");
+        Console.WriteLine("Net Pay : {0:C}",((2000 + (sales * 0.15M))) - (500 + (sales * 0.02M)));
+    }
+
+    public static void NumberSquare()
+    {
+        Console.WriteLine("======= Number Square =======");
+        
+        int square = UserInput.GetIntegerInput("Enter a Number  ");
+        
+        Console.WriteLine("Square : {0}, Square Root : {1}", square*square, Math.Sqrt(square));
+    }
+
+    public static void Trigonometry()
+    {
+        Console.WriteLine("======= Trigonometry =======");
+        double angle = UserInput.GetIntegerInput("Enter a Angle  ") * (Math.PI/180);
+        
+        Console.WriteLine("Sine : {0}, Cosine : {1}, Tangent : {2} ",Math.Sin( angle), Math.Cos(angle),Math.Tan(angle));
+    }
 }

@@ -18,7 +18,7 @@ class Program
                                   "\n 5. TSA of Pipe" +
                                   "\n 6. JohnnyCashShop" +
                                   
-                                  "\n Select Program: ", 6
+                                  "\n Select Program: ", 7
             );
 
         switch (programNumber)
@@ -41,7 +41,14 @@ class Program
             case 6:
                 ExerciseOne.JohnnyCashShop();
                 break;
-            default:
+            case 7:
+                ExerciseOne.GrossPayCalculator();
+                break;
+            case 8:
+                ExerciseOne.NumberSquare();
+                break;
+            case 9:
+                ExerciseOne.Trigonometry();
                 break;
         }
     }
