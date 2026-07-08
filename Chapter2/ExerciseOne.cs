@@ -46,4 +46,30 @@ public static class ExerciseOne
         }
         Console.WriteLine("Average of Five = {0:F2}",sumOfNumbers/5);
     }
+
+    public static void GetOuterSurfaceAreaOfPipe()
+    {
+        Console.WriteLine("======= Get Outer Surface Area Of Pipe =======");
+        double radius = UserInput.GetDoubleInput("Radius ");
+        double height = UserInput.GetDoubleInput("Height ");
+        
+        Console.WriteLine("Total Surface Area = {0:F2}",( 2*Math.PI*radius) * (radius + height));
+        
+    }
+
+    public static void JohnnyCashShop()
+    {
+        Console.WriteLine("======= Johnny Cash Shop =======");
+        decimal amount = 0;
+        for (int i = 1; i <= 3; i++)
+        {
+            amount += UserInput.GetDecimalInput($"Enter amount of item {i} R");
+        }
+        
+        decimal cashProvided =  UserInput.GetDecimalInput("Cash Provided by user R");
+        Console.WriteLine("Change : {0:C}",cashProvided - amount);
+        
+    }
+    
+    
 }

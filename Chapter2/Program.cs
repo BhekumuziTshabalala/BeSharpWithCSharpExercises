@@ -15,7 +15,10 @@ class Program
                                   "\n 2. Bytes Converter" +
                                   "\n 3. Currency Convert" +
                                   "\n 4. Get Average of 5" +
-                                  "\n Select Program: ", 4
+                                  "\n 5. TSA of Pipe" +
+                                  "\n 6. JohnnyCashShop" +
+                                  
+                                  "\n Select Program: ", 6
             );
 
         switch (programNumber)
@@ -31,6 +34,12 @@ class Program
                 break;
             case 4:
                 ExerciseOne.GetAverageOfFive();
+                break;
+            case 5:
+                ExerciseOne.GetOuterSurfaceAreaOfPipe();
+                break;
+            case 6:
+                ExerciseOne.JohnnyCashShop();
                 break;
             default:
                 break;
