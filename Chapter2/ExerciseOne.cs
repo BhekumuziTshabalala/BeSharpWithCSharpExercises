@@ -34,6 +34,16 @@ public static class ExerciseOne
         decimal conversionRate = UserInput.GetDecimalInput("Conversion Rate R");
         
         Console.WriteLine("{0}$ = {1:C}", amount, amount * conversionRate);
-        
+    }
+
+    public static void GetAverageOfFive()
+    {
+        Console.WriteLine("======= Start get Average of Five =======");
+        double sumOfNumbers = 0;
+        for (int i = 1; i <= 5; i++)
+        {
+            sumOfNumbers += UserInput.GetDoubleInput($"Number : {i}");
+        }
+        Console.WriteLine("Average of Five = {0:F2}",sumOfNumbers/5);
     }
 }

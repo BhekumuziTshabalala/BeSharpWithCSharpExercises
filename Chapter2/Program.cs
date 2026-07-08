@@ -14,7 +14,8 @@ class Program
                                   "\n 1. Seconds Converter." +
                                   "\n 2. Bytes Converter" +
                                   "\n 3. Currency Convert" +
-                                  "\n Select Program: ", 3
+                                  "\n 4. Get Average of 5" +
+                                  "\n Select Program: ", 4
             );
 
         switch (programNumber)
@@ -27,6 +28,9 @@ class Program
                 break;
             case 3:
                 ExerciseOne.ConvertCurrency();
+                break;
+            case 4:
+                ExerciseOne.GetAverageOfFive();
                 break;
             default:
                 break;
