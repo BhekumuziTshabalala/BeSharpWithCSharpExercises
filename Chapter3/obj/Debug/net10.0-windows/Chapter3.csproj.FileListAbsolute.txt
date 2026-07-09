@@ -1,0 +1,15 @@
+P:\BeSharpWithCSharp\Chapter3\bin\Debug\net10.0-windows\Chapter3.exe
+P:\BeSharpWithCSharp\Chapter3\bin\Debug\net10.0-windows\Chapter3.deps.json
+P:\BeSharpWithCSharp\Chapter3\bin\Debug\net10.0-windows\Chapter3.runtimeconfig.json
+P:\BeSharpWithCSharp\Chapter3\bin\Debug\net10.0-windows\Chapter3.dll
+P:\BeSharpWithCSharp\Chapter3\bin\Debug\net10.0-windows\Chapter3.pdb
+P:\BeSharpWithCSharp\Chapter3\obj\Debug\net10.0-windows\Chapter3.GeneratedMSBuildEditorConfig.editorconfig
+P:\BeSharpWithCSharp\Chapter3\obj\Debug\net10.0-windows\Chapter3.AssemblyInfoInputs.cache
+P:\BeSharpWithCSharp\Chapter3\obj\Debug\net10.0-windows\Chapter3.AssemblyInfo.cs
+P:\BeSharpWithCSharp\Chapter3\obj\Debug\net10.0-windows\Chapter3.csproj.CoreCompileInputs.cache
+P:\BeSharpWithCSharp\Chapter3\obj\Debug\net10.0-windows\Chapter3.sourcelink.json
+P:\BeSharpWithCSharp\Chapter3\obj\Debug\net10.0-windows\Chapter3.dll
+P:\BeSharpWithCSharp\Chapter3\obj\Debug\net10.0-windows\refint\Chapter3.dll
+P:\BeSharpWithCSharp\Chapter3\obj\Debug\net10.0-windows\Chapter3.pdb
+P:\BeSharpWithCSharp\Chapter3\obj\Debug\net10.0-windows\Chapter3.genruntimeconfig.cache
+P:\BeSharpWithCSharp\Chapter3\obj\Debug\net10.0-windows\ref\Chapter3.dll

@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="Chapter1/Chapter1.csproj" Id="fb53c00f-0d3d-48d8-a457-f9a097134156" />
   <Project Path="Chapter2/Chapter2.csproj" />
+  <Project Path="Chapter3/Chapter3.csproj" />
   <Project Path="Utility/Utility.csproj" />
 </Solution>

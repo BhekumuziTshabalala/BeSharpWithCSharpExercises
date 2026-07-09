@@ -19,7 +19,7 @@ class Program
                                   "\n 6. JohnnyCashShop" +
                                   "\n 7. GrossPayCalculator" +
                                   "\n 8. NumberSquare" +
-                                  "\n 9.Trigonometry" +
+                                  "\n 9. Trigonometry" +
                                   "\n Select Program: ", 7
             );
 
