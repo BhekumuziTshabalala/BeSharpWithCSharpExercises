@@ -17,7 +17,7 @@ static class Program
         GetName name = new GetName();
         name.Name = "Get Name";
         
-        Application.Run(new GetName());
+        Application.Run(new Exercise1());
         
     }
 }

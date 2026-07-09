@@ -2,7 +2,7 @@ using Utility;
 
 namespace Chapter2;
 
-public static class ExerciseOne
+public static class Exercises
 {
     public  static void ConvertSeconds()
     {

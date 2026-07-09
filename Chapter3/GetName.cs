@@ -19,7 +19,7 @@ public class GetName : Form
         this.Controls.Add(tbName);
         
         Button btnNamMessage = new Button();
-        btnNamMessage.Text = "Message";
+        btnNamMessage.Text = "&Message";
         btnNamMessage.Left = 8;
         btnNamMessage.Top = lblName.Top + lblName.Height + 20;
         this.Controls.Add(btnNamMessage);
@@ -30,8 +30,6 @@ public class GetName : Form
         btnNameCancel.Top = lblName.Top + lblName.Height + 20;
         this.Controls.Add(btnNameCancel);
         
-
-
 
     }
     

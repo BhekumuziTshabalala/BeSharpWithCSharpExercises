@@ -19,38 +19,38 @@ class Program
                                   "\n 6. JohnnyCashShop" +
                                   "\n 7. GrossPayCalculator" +
                                   "\n 8. NumberSquare" +
-                                  "\n 9. Trigonometry" +
+                                  "\n 9.  Trigonometry" +
                                   "\n Select Program: ", 7
             );
 
         switch (programNumber)
         {
             case 1:
-                ExerciseOne.ConvertSeconds();
+                Exercises.ConvertSeconds();
                 break;
             case 2:
-                ExerciseOne.ConvertBytes();
+                Exercises.ConvertBytes();
                 break;
             case 3:
-                ExerciseOne.ConvertCurrency();
+                Exercises.ConvertCurrency();
                 break;
             case 4:
-                ExerciseOne.GetAverageOfFive();
+                Exercises.GetAverageOfFive();
                 break;
             case 5:
-                ExerciseOne.GetOuterSurfaceAreaOfPipe();
+                Exercises.GetOuterSurfaceAreaOfPipe();
                 break;
             case 6:
-                ExerciseOne.JohnnyCashShop();
+                Exercises.JohnnyCashShop();
                 break;
             case 7:
-                ExerciseOne.GrossPayCalculator();
+                Exercises.GrossPayCalculator();
                 break;
             case 8:
-                ExerciseOne.NumberSquare();
+                Exercises.NumberSquare();
                 break;
             case 9:
-                ExerciseOne.Trigonometry();
+                Exercises.Trigonometry();
                 break;
         }
     }
